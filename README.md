@@ -38,7 +38,10 @@ Every entry lives in `failures/` and follows [`failures/TEMPLATE.md`](failures/T
 
 | # | Title | Category | Model tested | Failure rate | Date |
 |---|-------|----------|--------------|--------------|------|
-| – | No entries yet | – | – | – | – |
+| [001](failures/001-word-count-constraint.md) | Exact word-count instruction broken in every sentence | GEN-INSTR | ChatGPT (default model) | 1/1 (observed once) | 2026-11-02 |
+| [002](failures/002-citation-constraints.md) | Real citations, but date and source-type constraints broken | LLM09 | ChatGPT (default model, web search on) | 1/1 (observed once, partial) | 2026-11-02 |
+
+Round 1 test plan and results, including the two tests the model passed: [TEST-PLAN.md](TEST-PLAN.md) and [TEST-PLAN-RESULTS.md](TEST-PLAN-RESULTS.md).
 
 ## Method
 
